@@ -1,0 +1,36 @@
+@keyframes mudaCor {
+    0%{
+        color: red;
+    }
+    20%{
+        color: blueviolet;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: aqua;
+    }
+    100%{
+        color: pink;
+    }
+}
+/* webkit elementos de navegador ::-webkit */
+
+h1{
+    animation-name: mudaCor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 5s; */
+}
+
+#menuIcon{
+    display: block;
+}
+
+#menuPc{
+    display: none;
+}
